@@ -43,7 +43,7 @@ Completing all of these test suites is not necessary, but you should be working 
 - [x] ⛳️ [Golf Course](./golf-course)
 - [ ] 🎃 [Trick or Treat](./trick-or-treat)
 - [ ] 🛹 [Skate Park](./skate-park)
-- [ ] 🐶 [Adopt a Dog](./adopt-a-dog)
+- [x] 🐶 [Adopt a Dog](./adopt-a-dog)
 - [ ] 👩‍🍳 [Recipes](./recipes)
 - [ ] 🍫 [Vending Machine](./vending-machine)
 
