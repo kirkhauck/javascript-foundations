@@ -41,7 +41,7 @@ Completing all of these test suites is not necessary, but you should be working 
 - [x] 🧶 [Crafting](./crafting)
 - [ ] 🏃🏻‍♀️ [Road Race](./roadrace)
 - [x] ⛳️ [Golf Course](./golf-course)
-- [ ] 🎃 [Trick or Treat](./trick-or-treat)
+- [x] 🎃 [Trick or Treat](./trick-or-treat)
 - [ ] 🛹 [Skate Park](./skate-park)
 - [x] 🐶 [Adopt a Dog](./adopt-a-dog)
 - [ ] 👩‍🍳 [Recipes](./recipes)
