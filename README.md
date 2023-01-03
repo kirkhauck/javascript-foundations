@@ -39,7 +39,7 @@ Completing all of these test suites is not necessary, but you should be working 
 ### Greatest Hits
 - [x] 🧚 ‍[Mythical Creatures](./mythical-creatures)
 - [x] 🧶 [Crafting](./crafting)
-- [ ] 🏃🏻‍♀️ [Road Race](./roadrace)
+- [x] 🏃🏻‍♀️ [Road Race](./roadrace)
 - [x] ⛳️ [Golf Course](./golf-course)
 - [x] 🎃 [Trick or Treat](./trick-or-treat)
 - [ ] 🛹 [Skate Park](./skate-park)
