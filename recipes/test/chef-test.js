@@ -34,19 +34,19 @@ describe('Chef', function() {
     chefSarah = new Chef('Sarah', [cookies, quesadillas, soup]);
   })
 
-  it.skip('should have a name and box of recipes', function() {
+  it('should have a name and box of recipes', function() {
     assert.equal(chefSarah.name, 'Sarah');
     assert.deepEqual(chefSarah.recipeBox, [cookies, quesadillas, soup]);
   });
 
-  it.skip('should be able to try and rate a recipe', function() {
+  it('should be able to try and rate a recipe', function() {
     chefSarah.tryRecipe('chicken noodle soup', 7);
 
     assert.equal(soup.attempted, true);
     assert.equal(soup.rating, 7);
   });
 
-  it.skip('should be able to add a recipe to their box', function() {
+  it('should be able to add a recipe to their box', function() {
     var strawberries = new Ingredient({ name: 'strawberries', amount: 6 });
     var bananas = new Ingredient({ name: 'bananas', amount: 1 });
     var milk = new Ingredient({ name: 'almond milk', amount: 0.5 });
@@ -59,7 +59,7 @@ describe('Chef', function() {
     assert.instanceOf(chefSarah.recipeBox[3], Recipe);
   });
 
-  it.skip('should be able to make changes to a recipe', function() {
+  it('should be able to make changes to a recipe', function() {
     chefSarah.changeRecipe('quesadillas', 'pepper jack cheese', 10);
 
     assert.equal(chefSarah.recipeBox[1].ingredients[0].amount, 10);
