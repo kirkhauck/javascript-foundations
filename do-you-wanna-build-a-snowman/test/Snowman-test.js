@@ -2,7 +2,7 @@ var assert = require("chai").assert;
 var Snowman = require("../src/Snowman");
 
 describe("Snowman", function () {
-  it.skip('should be able to have a carrot nose, snowballs for its body, coal for eyes and buttons for its mouth', function () {
+  it('should be able to have a carrot nose, snowballs for its body, coal for eyes and buttons for its mouth', function () {
     var snowmanDetails1 = {
       carrots: 1,
       coal: 2,
@@ -31,7 +31,7 @@ describe("Snowman", function () {
     assert.equal(snowman2.snowballs, 3);
   });
 
-  it.skip('should start out without a magic hat', function() {
+  it('should start out without a magic hat', function() {
     var snowmanDetails = {
       carrots: 1,
       coal: 2,
@@ -44,7 +44,7 @@ describe("Snowman", function () {
     assert.equal(snowman.magicHat, false);
   });
 
-  it.skip('should be able to wear a magic hat', function() {
+  it('should be able to wear a magic hat', function() {
     var snowmanDetails = {
       carrots: 1,
       coal: 2,
@@ -60,7 +60,7 @@ describe("Snowman", function () {
 
   });
 
-  it.skip('should fail to wear a magic hat if it has less than 2 coal eyes', function() {
+  it('should fail to wear a magic hat if it has less than 2 coal eyes', function() {
     var snowmanDetails = {
       carrots: 1,
       coal: 1,
@@ -75,7 +75,7 @@ describe("Snowman", function () {
     assert.equal(isWearingHat, false);
   });
 
-  it.skip('should fail to wear a magic hat if it has less than 5 button teeth', function () {
+  it('should fail to wear a magic hat if it has less than 5 button teeth', function () {
     var snowmanDetails = {
       carrots: 1,
       coal: 2,
@@ -90,7 +90,7 @@ describe("Snowman", function () {
     assert.equal(isWearingHat, false);
   });
 
-  it.skip('should fail to wear a magic hat if it has less than 1 carrot nose', function () {
+  it('should fail to wear a magic hat if it has less than 1 carrot nose', function () {
     var snowmanDetails = {
       carrots: 0,
       coal: 2,
@@ -105,7 +105,7 @@ describe("Snowman", function () {
     assert.equal(isWearingHat, false);
   });
 
-  it.skip('should fail to wear a magic hat if it has less than 2 snowballs for its body', function () {
+  it('should fail to wear a magic hat if it has less than 2 snowballs for its body', function () {
     var snowmanDetails = {
       carrots: 1,
       coal: 2,
